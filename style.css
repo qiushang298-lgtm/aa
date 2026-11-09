@@ -1,0 +1,57 @@
+body {
+     margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+}
+
+header{
+       background: #222;
+  color: white;
+  padding: 20px;
+}
+
+nav{
+    background: #444;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover{
+  color: rgba(230, 222, 142, 0.767);
+}
+
+section {
+  padding: 60px 20px;
+}
+
+article{
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.clubs {
+gap: 20px;
+display:flex;
+}
+
+.card {
+background: #ddd;
+padding: 30px;
+border: 1px solid #222;
+border-radius: 12px;
+}
+
